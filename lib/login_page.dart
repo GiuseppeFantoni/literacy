@@ -13,7 +13,7 @@ class LoginPage extends StatelessWidget {
                     fit: BoxFit.fill,
                     colorFilter:
                         ColorFilter.mode(Colors.black26, BlendMode.darken),
-                    image: AssetImage('assets/images/perfeito.jpg'))),
+                    image: AssetImage('assets/images/background.jpg'))),
           ),
           Scaffold(
             backgroundColor: Colors.transparent,
@@ -26,7 +26,7 @@ class LoginPage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Image(
-                      image: AssetImage('assets/images/tttt.png'),
+                      image: AssetImage('assets/images/loginLogo.png'),
                       width: 100,
                       height: 100,
                     ),
