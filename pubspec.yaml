@@ -45,15 +45,8 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/images/pernalonga.png
-    - assets/images/pernalonaaga.png
-    - assets/images/image1.png
     - assets/images/background.jpg
-    - assets/images/perfeito.jpg
-    - assets/images/tet.png
-    - assets/images/ee.png
-    - assets/images/earth.png
-    - assets/images/tttt.png
+    - assets/images/loginLogo.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
