@@ -17,31 +17,27 @@ class PageControllerEdu extends StatelessWidget {
       Scaffold(
           bottomNavigationBar: Container(
             decoration: BoxDecoration(
-                color: Colors.white60,
+                color: const Color(0xff17233b),
                 borderRadius: BorderRadius.only(
                     topLeft: Radius.circular(36.0),
                     topRight: Radius.circular(36.0))),
-            padding: const EdgeInsets.all(6),
+            padding: const EdgeInsets.all(3),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 IconButton(
-                    onPressed: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (BuildContext context) => LoginPage()));
-                    },
-                    icon: Icon(Icons.arrow_back_rounded, size: 30)),
+                    color: Colors.white70,
+                    onPressed: () {},
+                    icon: Icon(Icons.menu_rounded, size: 30)),
                 IconButton(
-                    onPressed: () {}, icon: Icon(Icons.menu_rounded, size: 30)),
-                IconButton(
+                    color: Colors.white70,
                     onPressed: () {},
                     icon: Icon(Icons.search_rounded, size: 30)),
                 IconButton(
+                    color: Colors.white70,
                     onPressed: () {},
                     icon: Icon(
-                      Icons.account_circle_rounded,
+                      Icons.account_circle,
                       size: 30,
                     ))
               ],
@@ -59,7 +55,13 @@ class PageControllerEdu extends StatelessWidget {
                     height: 100,
                     width: 300,
                     child: ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (BuildContext context) =>
+                                    LoginPage()));
+                      },
                       child: Text('Alfabeto'),
                       style: ElevatedButton.styleFrom(
                           primary: Colors.white70,
@@ -71,7 +73,13 @@ class PageControllerEdu extends StatelessWidget {
                     height: 100,
                     width: 300,
                     child: ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (BuildContext context) =>
+                                    LoginPage()));
+                      },
                       child: Text('Numero'),
                       style: ElevatedButton.styleFrom(
                           primary: Colors.white70,
