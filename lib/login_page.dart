@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'page_controller.dart';
 
 class LoginPage extends StatelessWidget {
   @override
@@ -129,7 +130,13 @@ class LoginPage extends StatelessWidget {
                                         Icons.arrow_forward_rounded,
                                         color: Colors.white,
                                       )),
-                                  onTap: () {},
+                                  onTap: () {
+                                    Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                            builder: (BuildContext context) =>
+                                                PageControllerEdu()));
+                                  },
                                 ),
                               ),
                             ),
