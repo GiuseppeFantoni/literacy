@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'login_page.dart';
+import 'package:literacy/shared/number_component.dart';
+import 'numbers_page.dart';
+import 'alphabet_page.dart';
 
 class PageControllerEdu extends StatelessWidget {
   @override
@@ -60,7 +61,7 @@ class PageControllerEdu extends StatelessWidget {
                             context,
                             MaterialPageRoute(
                                 builder: (BuildContext context) =>
-                                    LoginPage()));
+                                    AlphabetPage()));
                       },
                       child: Text('Alfabeto'),
                       style: ElevatedButton.styleFrom(
@@ -78,7 +79,7 @@ class PageControllerEdu extends StatelessWidget {
                             context,
                             MaterialPageRoute(
                                 builder: (BuildContext context) =>
-                                    LoginPage()));
+                                    NumberPage()));
                       },
                       child: Text('Numero'),
                       style: ElevatedButton.styleFrom(
