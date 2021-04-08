@@ -23,3 +23,16 @@ const numberConstantesName = {
   8: "Oito",
   9: "Nove",
 };
+
+const numberConstantesSizes = {
+  0: {"width": 125.0, "height": 125.0},
+  1: {"width": 110.0, "height": 110.0},
+  2: {"width": 140.0, "height": 140.0},
+  3: {"width": 110.0, "height": 110.0},
+  4: {"width": 100.0, "height": 100.0},
+  5: {"width": 100.0, "height": 100.0},
+  6: {"width": 110.0, "height": 110.0},
+  7: {"width": 100.0, "height": 100.0},
+  8: {"width": 120.0, "height": 120.0},
+  9: {"width": 110.0, "height": 110.0},
+};

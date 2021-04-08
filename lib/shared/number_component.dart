@@ -12,12 +12,12 @@ class NumberComponent extends StatelessWidget {
       alignment: Alignment.center,
       children: [
         Container(
-          height: 200,
+          height: 175,
           width: 300,
           decoration: BoxDecoration(
             boxShadow: [
               BoxShadow(
-                color: Colors.white.withOpacity(0.4),
+                color: Colors.white.withOpacity(0.2),
                 spreadRadius: 0.1,
                 blurRadius: 3,
                 offset: Offset(0, 0), // changes position of shadow
@@ -28,11 +28,11 @@ class NumberComponent extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.fromLTRB(0.0, 0, 0, 220),
+          padding: const EdgeInsets.fromLTRB(0.0, 0, 0, 200),
           child: Image(
             image: AssetImage(numberConstantes[number]),
-            width: 120,
-            height: 120,
+            width: numberConstantesSizes[number]["widget"],
+            height: numberConstantesSizes[number]["height"],
           ),
         ),
         Text(
@@ -40,7 +40,7 @@ class NumberComponent extends StatelessWidget {
           style: GoogleFonts.petrona(
             textStyle: TextStyle(
                 color: Colors.white70,
-                fontSize: 40,
+                fontSize: 45,
                 fontWeight: FontWeight.bold),
           ),
         )
