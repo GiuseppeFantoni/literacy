@@ -56,7 +56,7 @@ class NumberPage extends StatelessWidget {
                 child: Center(
                     child: Container(
                         child: Swiper(
-              itemCount: 9,
+              itemCount: 10,
               itemBuilder: (BuildContext context, int index) {
                 return NumberComponent(
                   number: index,
