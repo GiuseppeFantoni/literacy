@@ -2,15 +2,35 @@ import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:literacy/login_page.dart';
 import 'package:flutter/material.dart';
+import 'package:awesome_dialog/awesome_dialog.dart';
 
 enum MenuOption { Perfil, Sair }
 
 class PopUpMenuOptions extends StatelessWidget {
   void choiceAction(MenuOption param, context) {
     if (MenuOption.Sair == param) {
-      Navigator.of(context).pushAndRemoveUntil(
-          MaterialPageRoute(builder: (context) => LoginPage()),
-          (Route<dynamic> route) => false);
+      AwesomeDialog(
+        dialogBackgroundColor: Colors.white,
+        context: context,
+        borderSide: BorderSide(color: Colors.grey, width: 0.5),
+        width: 400,
+        buttonsBorderRadius: BorderRadius.all(Radius.circular(8)),
+        headerAnimationLoop: false,
+        animType: AnimType.SCALE,
+        dialogType: DialogType.WARNING,
+        title: 'Ops,',
+        desc: 'Você realmente deseja sair?',
+        showCloseIcon: true,
+        btnOkColor: Colors.yellow[800],
+        btnCancelOnPress: () {},
+        btnCancelText: "Cancelar",
+        btnOkText: "Sim",
+        btnOkOnPress: () {
+          Navigator.of(context).pushAndRemoveUntil(
+              MaterialPageRoute(builder: (context) => LoginPage()),
+              (Route<dynamic> route) => false);
+        },
+      )..show();
     }
   }
 
