@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:literacy/shared/number_component.dart';
 import 'numbers_page.dart';
 import 'alphabet_page.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'shared/pop_up_menu_options.dart';
 
 class PageControllerEdu extends StatelessWidget {
   @override
@@ -26,21 +27,20 @@ class PageControllerEdu extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                IconButton(
-                    color: Colors.white70,
-                    onPressed: () {},
-                    icon: Icon(Icons.menu_rounded, size: 30)),
-                IconButton(
-                    color: Colors.white70,
-                    onPressed: () {},
-                    icon: Icon(Icons.search_rounded, size: 30)),
-                IconButton(
-                    color: Colors.white70,
-                    onPressed: () {},
-                    icon: Icon(
-                      Icons.account_circle,
-                      size: 30,
-                    ))
+                Material(
+                    color: Colors.transparent,
+                    child: IconButton(
+                        splashColor: const Color(0xff17233b).withOpacity(0.3),
+                        color: Colors.white70,
+                        onPressed: () {},
+                        icon: Icon(Icons.menu_rounded, size: 30))),
+                Text(
+                  "Edu App",
+                  style: GoogleFonts.petrona(
+                      textStyle:
+                          TextStyle(fontSize: 20, color: Colors.white70)),
+                ),
+                PopUpMenuOptions(),
               ],
             ),
           ),
@@ -53,7 +53,7 @@ class PageControllerEdu extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   SizedBox(
-                    height: 100,
+                    height: 110,
                     width: 300,
                     child: ElevatedButton(
                       onPressed: () {
@@ -63,15 +63,16 @@ class PageControllerEdu extends StatelessWidget {
                                 builder: (BuildContext context) =>
                                     AlphabetPage()));
                       },
-                      child: Text('Alfabeto'),
+                      child: Image(
+                          image: AssetImage('assets/images/numberZero.png')),
                       style: ElevatedButton.styleFrom(
-                          primary: Colors.white70,
+                          primary: Color(0xff17233b),
                           textStyle: TextStyle(
                               fontSize: 16, fontWeight: FontWeight.bold)),
                     ),
                   ),
                   SizedBox(
-                    height: 100,
+                    height: 110,
                     width: 300,
                     child: ElevatedButton(
                       onPressed: () {
@@ -81,9 +82,10 @@ class PageControllerEdu extends StatelessWidget {
                                 builder: (BuildContext context) =>
                                     NumberPage()));
                       },
-                      child: Text('Numero'),
+                      child: Image(
+                          image: AssetImage('assets/images/numberZero.png')),
                       style: ElevatedButton.styleFrom(
-                          primary: Colors.white70,
+                          primary: Color(0xff17233b),
                           textStyle: TextStyle(
                               fontSize: 16, fontWeight: FontWeight.bold)),
                     ),

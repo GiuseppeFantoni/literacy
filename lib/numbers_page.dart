@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
-import 'page_controller.dart';
 import 'shared/number_component.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'shared/pop_up_menu_options.dart';
 
 class NumberPage extends StatelessWidget {
   @override
@@ -32,21 +33,13 @@ class NumberPage extends StatelessWidget {
                       Navigator.pop(context);
                     },
                     icon: Icon(Icons.arrow_back_rounded, size: 30)),
-                IconButton(
-                    color: Colors.white70,
-                    onPressed: () {},
-                    icon: Icon(Icons.menu_rounded, size: 30)),
-                IconButton(
-                    color: Colors.white70,
-                    onPressed: () {},
-                    icon: Icon(Icons.search_rounded, size: 30)),
-                IconButton(
-                    color: Colors.white70,
-                    onPressed: () {},
-                    icon: Icon(
-                      Icons.account_circle,
-                      size: 30,
-                    ))
+                Text(
+                  "Edu App",
+                  style: GoogleFonts.petrona(
+                      textStyle:
+                          TextStyle(fontSize: 20, color: Colors.white70)),
+                ),
+                PopUpMenuOptions(),
               ],
             ),
           ),
