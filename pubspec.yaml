@@ -48,16 +48,42 @@ flutter:
   assets:
     - assets/images/background.jpg
     - assets/images/loginLogo.png
-    - assets/images/numberZero.png
-    - assets/images/numberOne.png
-    - assets/images/numberTwo.png
-    - assets/images/numberThree.png
-    - assets/images/numberFour.png
-    - assets/images/numberFive.png
-    - assets/images/numberSix.png
-    - assets/images/numberSeven.png
-    - assets/images/numberEight.png
-    - assets/images/numberNine.png
+    - assets/images/numbers/numberZero.png
+    - assets/images/numbers/numberOne.png
+    - assets/images/numbers/numberTwo.png
+    - assets/images/numbers/numberThree.png
+    - assets/images/numbers/numberFour.png
+    - assets/images/numbers/numberFive.png
+    - assets/images/numbers/numberSix.png
+    - assets/images/numbers/numberSeven.png
+    - assets/images/numbers/numberEight.png
+    - assets/images/numbers/numberNine.png
+    - assets/images/letters/letterA.png
+    - assets/images/letters/letterB.png
+    - assets/images/letters/letterC.png
+    - assets/images/letters/letterD.png
+    - assets/images/letters/letterE.png
+    - assets/images/letters/letterF.png
+    - assets/images/letters/letterG.png
+    - assets/images/letters/letterH.png
+    - assets/images/letters/letterI.png
+    - assets/images/letters/letterJ.png
+    - assets/images/letters/letterK.png
+    - assets/images/letters/letterL.png
+    - assets/images/letters/letterM.png
+    - assets/images/letters/letterN.png
+    - assets/images/letters/letterO.png
+    - assets/images/letters/letterP.png
+    - assets/images/letters/letterQ.png
+    - assets/images/letters/letterR.png
+    - assets/images/letters/letterS.png
+    - assets/images/letters/letterT.png
+    - assets/images/letters/letterU.png
+    - assets/images/letters/letterV.png
+    - assets/images/letters/letterW.png
+    - assets/images/letters/letterX.png
+    - assets/images/letters/letterY.png
+    - assets/images/letters/letterZ.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

@@ -1,14 +1,14 @@
 const numberConstantes = {
-  0: "assets/images/numberZero.png",
-  1: "assets/images/numberOne.png",
-  2: "assets/images/numberTwo.png",
-  3: "assets/images/numberThree.png",
-  4: "assets/images/numberFour.png",
-  5: "assets/images/numberFive.png",
-  6: "assets/images/numberSix.png",
-  7: "assets/images/numberSeven.png",
-  8: "assets/images/numberEight.png",
-  9: "assets/images/numberNine.png",
+  0: "assets/images/numbers/numberZero.png",
+  1: "assets/images/numbers/numberOne.png",
+  2: "assets/images/numbers/numberTwo.png",
+  3: "assets/images/numbers/numberThree.png",
+  4: "assets/images/numbers/numberFour.png",
+  5: "assets/images/numbers/numberFive.png",
+  6: "assets/images/numbers/numberSix.png",
+  7: "assets/images/numbers/numberSeven.png",
+  8: "assets/images/numbers/numberEight.png",
+  9: "assets/images/numbers/numberNine.png"
 };
 
 const numberConstantesName = {
@@ -21,7 +21,7 @@ const numberConstantesName = {
   6: "Seis",
   7: "Sete",
   8: "Oito",
-  9: "Nove",
+  9: "Nove"
 };
 
 const numberConstantesSizes = {
@@ -34,5 +34,92 @@ const numberConstantesSizes = {
   6: {"width": 110.0, "height": 110.0},
   7: {"width": 100.0, "height": 100.0},
   8: {"width": 120.0, "height": 120.0},
-  9: {"width": 110.0, "height": 110.0},
+  9: {"width": 110.0, "height": 110.0}
+};
+
+const lettersConstantes = {
+  0: "assets/images/letters/letterA.png",
+  1: "assets/images/letters/letterB.png",
+  2: "assets/images/letters/letterC.png",
+  3: "assets/images/letters/letterD.png",
+  4: "assets/images/letters/letterE.png",
+  5: "assets/images/letters/letterF.png",
+  6: "assets/images/letters/letterG.png",
+  7: "assets/images/letters/letterH.png",
+  8: "assets/images/letters/letterI.png",
+  9: "assets/images/letters/letterJ.png",
+  10: "assets/images/letters/letterK.png",
+  11: "assets/images/letters/letterL.png",
+  12: "assets/images/letters/letterM.png",
+  13: "assets/images/letters/letterN.png",
+  14: "assets/images/letters/letterO.png",
+  15: "assets/images/letters/letterP.png",
+  16: "assets/images/letters/letterQ.png",
+  17: "assets/images/letters/letterR.png",
+  18: "assets/images/letters/letterS.png",
+  19: "assets/images/letters/letterT.png",
+  20: "assets/images/letters/letterU.png",
+  21: "assets/images/letters/letterV.png",
+  22: "assets/images/letters/letterW.png",
+  23: "assets/images/letters/letterX.png",
+  24: "assets/images/letters/letterY.png",
+  25: "assets/images/letters/letterZ.png"
+};
+
+const lettersConstantesName = {
+  0: "Abelha",
+  1: "Boi",
+  2: "Cachorro",
+  3: "Dinossauro",
+  4: "Elefante",
+  5: "Foca",
+  6: "Gato",
+  7: "Hipopótamo",
+  8: "Iguana",
+  9: "Jacaré",
+  10: "Koala",
+  11: "Leão",
+  12: "Macaco",
+  13: "Naja",
+  14: "Onça",
+  15: "Pato",
+  16: "Quati",
+  17: "Rato",
+  18: "Sapo",
+  19: "Tartaruga",
+  20: "Urubu",
+  21: "Vaca",
+  22: "Wallaby",
+  23: "peiXe",
+  24: "Yorkshire",
+  25: "Zebra"
+};
+
+const lettersConstantesSizes = {
+  0: {"width": 150.0, "height": 150.0},
+  1: {"width": 150.0, "height": 150.0},
+  2: {"width": 150.0, "height": 150.0},
+  3: {"width": 150.0, "height": 150.0},
+  4: {"width": 150.0, "height": 150.0},
+  5: {"width": 150.0, "height": 150.0},
+  6: {"width": 150.0, "height": 150.0},
+  7: {"width": 150.0, "height": 150.0},
+  8: {"width": 150.0, "height": 150.0},
+  9: {"width": 150.0, "height": 150.0},
+  10: {"width": 150.0, "height": 150.0},
+  11: {"width": 150.0, "height": 150.0},
+  12: {"width": 150.0, "height": 150.0},
+  13: {"width": 150.0, "height": 150.0},
+  14: {"width": 150.0, "height": 150.0},
+  15: {"width": 150.0, "height": 150.0},
+  16: {"width": 150.0, "height": 150.0},
+  17: {"width": 150.0, "height": 150.0},
+  18: {"width": 150.0, "height": 150.0},
+  19: {"width": 150.0, "height": 150.0},
+  20: {"width": 150.0, "height": 150.0},
+  21: {"width": 150.0, "height": 150.0},
+  22: {"width": 150.0, "height": 150.0},
+  23: {"width": 150.0, "height": 150.0},
+  24: {"width": 150.0, "height": 150.0},
+  25: {"width": 150.0, "height": 150.0}
 };

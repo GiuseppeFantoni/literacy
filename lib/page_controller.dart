@@ -64,7 +64,8 @@ class PageControllerEdu extends StatelessWidget {
                                     AlphabetPage()));
                       },
                       child: Image(
-                          image: AssetImage('assets/images/numberZero.png')),
+                          image:
+                              AssetImage('assets/images/letters/letterA.png')),
                       style: ElevatedButton.styleFrom(
                           primary: Color(0xff17233b),
                           textStyle: TextStyle(
@@ -83,7 +84,8 @@ class PageControllerEdu extends StatelessWidget {
                                     NumberPage()));
                       },
                       child: Image(
-                          image: AssetImage('assets/images/numberZero.png')),
+                          image: AssetImage(
+                              'assets/images/numbers/numberZero.png')),
                       style: ElevatedButton.styleFrom(
                           primary: Color(0xff17233b),
                           textStyle: TextStyle(

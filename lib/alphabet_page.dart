@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
-import 'shared/number_component.dart';
+import 'shared/alphabet_component.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'shared/pop_up_menu_options.dart';
 
@@ -49,9 +49,9 @@ class AlphabetPage extends StatelessWidget {
                 child: Center(
                     child: Container(
                         child: Swiper(
-              itemCount: 10,
+              itemCount: 26,
               itemBuilder: (BuildContext context, int index) {
-                return NumberComponent(
+                return AlphabetComponent(
                   number: index,
                 );
               },
