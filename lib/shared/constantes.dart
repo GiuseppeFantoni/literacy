@@ -90,7 +90,7 @@ const lettersConstantesName = {
   20: "Urubu",
   21: "Vaca",
   22: "Wallaby",
-  23: "peiXe",
+  23: "Peixe",
   24: "Yorkshire",
   25: "Zebra"
 };
