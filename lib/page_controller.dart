@@ -52,9 +52,16 @@ class PageControllerEdu extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
+                  Text("Bem vindo(a)!",
+                      style: GoogleFonts.petrona(
+                        textStyle: TextStyle(
+                            color: Colors.white,
+                            fontSize: 38,
+                            fontWeight: FontWeight.bold),
+                      )),
                   SizedBox(
-                    height: 110,
-                    width: 300,
+                    height: 140,
+                    width: 160,
                     child: ElevatedButton(
                       onPressed: () {
                         Navigator.push(
@@ -66,15 +73,21 @@ class PageControllerEdu extends StatelessWidget {
                       child: Image(
                           image:
                               AssetImage('assets/images/letters/letterA.png')),
-                      style: ElevatedButton.styleFrom(
-                          primary: Color(0xff17233b),
-                          textStyle: TextStyle(
-                              fontSize: 16, fontWeight: FontWeight.bold)),
+                      style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(
+                              Color(0xff17233b)),
+                          shape:
+                              MaterialStateProperty.all<RoundedRectangleBorder>(
+                                  RoundedRectangleBorder(
+                                      borderRadius: BorderRadius.circular(55.0),
+                                      side: BorderSide(
+                                          color: Colors.white70
+                                              .withOpacity(0.1))))),
                     ),
                   ),
                   SizedBox(
-                    height: 110,
-                    width: 300,
+                    height: 140,
+                    width: 160,
                     child: ElevatedButton(
                       onPressed: () {
                         Navigator.push(
@@ -86,10 +99,16 @@ class PageControllerEdu extends StatelessWidget {
                       child: Image(
                           image: AssetImage(
                               'assets/images/numbers/numberZero.png')),
-                      style: ElevatedButton.styleFrom(
-                          primary: Color(0xff17233b),
-                          textStyle: TextStyle(
-                              fontSize: 16, fontWeight: FontWeight.bold)),
+                      style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(
+                              Color(0xff17233b)),
+                          shape:
+                              MaterialStateProperty.all<RoundedRectangleBorder>(
+                                  RoundedRectangleBorder(
+                                      borderRadius: BorderRadius.circular(55.0),
+                                      side: BorderSide(
+                                          color: Colors.white70
+                                              .withOpacity(0.1))))),
                     ),
                   ),
                 ],

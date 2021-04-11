@@ -8,7 +8,18 @@ const numberConstantes = {
   6: "assets/images/numbers/numberSix.png",
   7: "assets/images/numbers/numberSeven.png",
   8: "assets/images/numbers/numberEight.png",
-  9: "assets/images/numbers/numberNine.png"
+  9: "assets/images/numbers/numberNine.png",
+  10: "assets/images/numbers/numberTen.png",
+  11: "assets/images/numbers/numberEleven.png",
+  12: "assets/images/numbers/numberTwelve.png",
+  13: "assets/images/numbers/numberThirteen.png",
+  14: "assets/images/numbers/numberFourteen.png",
+  15: "assets/images/numbers/numberFifteen.png",
+  16: "assets/images/numbers/numberSixteen.png",
+  17: "assets/images/numbers/numberSeventeen.png",
+  18: "assets/images/numbers/numberEighteen.png",
+  19: "assets/images/numbers/numberNineteen.png",
+  20: "assets/images/numbers/numberTwenty.png"
 };
 
 const numberConstantesName = {
@@ -21,20 +32,42 @@ const numberConstantesName = {
   6: "Seis",
   7: "Sete",
   8: "Oito",
-  9: "Nove"
+  9: "Nove",
+  10: "Dez",
+  11: "Onze",
+  12: "Doze",
+  13: "Treze",
+  14: "Quatorze",
+  15: "Quinze",
+  16: "Dezesseis",
+  17: "Dezessete",
+  18: "Dezoito",
+  19: "Dezenove",
+  20: "Vinte"
 };
 
 const numberConstantesSizes = {
   0: {"width": 125.0, "height": 125.0},
-  1: {"width": 110.0, "height": 110.0},
-  2: {"width": 140.0, "height": 140.0},
+  1: {"width": 115.0, "height": 115.0},
+  2: {"width": 120.0, "height": 120.0},
   3: {"width": 110.0, "height": 110.0},
-  4: {"width": 100.0, "height": 100.0},
-  5: {"width": 100.0, "height": 100.0},
-  6: {"width": 110.0, "height": 110.0},
-  7: {"width": 100.0, "height": 100.0},
+  4: {"width": 120.0, "height": 120.0},
+  5: {"width": 120.0, "height": 120.0},
+  6: {"width": 115.0, "height": 115.0},
+  7: {"width": 140.0, "height": 140.0},
   8: {"width": 120.0, "height": 120.0},
-  9: {"width": 110.0, "height": 110.0}
+  9: {"width": 115.0, "height": 115.0},
+  10: {"width": 110.0, "height": 110.0},
+  11: {"width": 110.0, "height": 110.0},
+  12: {"width": 110.0, "height": 110.0},
+  13: {"width": 110.0, "height": 110.0},
+  14: {"width": 110.0, "height": 110.0},
+  15: {"width": 110.0, "height": 110.0},
+  16: {"width": 110.0, "height": 110.0},
+  17: {"width": 110.0, "height": 110.0},
+  18: {"width": 110.0, "height": 110.0},
+  19: {"width": 110.0, "height": 110.0},
+  20: {"width": 110.0, "height": 110.0}
 };
 
 const lettersConstantes = {
@@ -90,7 +123,7 @@ const lettersConstantesName = {
   20: "Urubu",
   21: "Vaca",
   22: "Wallaby",
-  23: "peiXe",
+  23: "Peixe",
   24: "Yorkshire",
   25: "Zebra"
 };

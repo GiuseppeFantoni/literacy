@@ -117,7 +117,7 @@ class _LoginPageState extends State<LoginPage> {
                                 ),
                               ),
                               border: InputBorder.none,
-                              hintText: "Email ou Usuario",
+                              hintText: "Email ou usuário",
                               hintStyle: TextStyle(color: Colors.white),
                             ),
                             onChanged: (value) {
