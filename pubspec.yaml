@@ -58,6 +58,17 @@ flutter:
     - assets/images/numbers/numberSeven.png
     - assets/images/numbers/numberEight.png
     - assets/images/numbers/numberNine.png
+    - assets/images/numbers/numberTen.png
+    - assets/images/numbers/numberEleven.png
+    - assets/images/numbers/numberTwelve.png
+    - assets/images/numbers/numberThirteen.png
+    - assets/images/numbers/numberFourteen.png
+    - assets/images/numbers/numberFifteen.png
+    - assets/images/numbers/numberSixteen.png
+    - assets/images/numbers/numberSeventeen.png
+    - assets/images/numbers/numberEighteen.png
+    - assets/images/numbers/numberNineteen.png
+    - assets/images/numbers/numberTwenty.png
     - assets/images/letters/letterA.png
     - assets/images/letters/letterB.png
     - assets/images/letters/letterC.png
